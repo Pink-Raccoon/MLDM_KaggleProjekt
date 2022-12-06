@@ -1,0 +1,9 @@
+\babel@toc {german}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Goal of the assignment}{2}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Loading the Data}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Getting the data}{2}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Processing and cleaning the Data}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Processing and Cleaning the Data}{2}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Plotting and analysing Data}{2}{section.4}%
+\contentsline {section}{\numberline {5}Building the Models}{2}{section.5}%
