@@ -1,5 +1,24 @@
-\documentclass[../Main.tex]{Subfiles}
+\documentclass[../Main.tex]{subfiles}
 
 \begin{document}
+The authors have tried the following models:
+\begin{itemize}
+	\item SVM
+	\item RandomForest
+	\item CNN
+\end{itemize}
+From all the models the Random Forest seemed to get the best score. With the following hypertunings:\\
+\begin{itemize}
+	\item n\_estimators:540
+	\item max\_depth:15
+	\item max\_features:sqrt
+	\item min\_samples\_leaf:5
+	\item min\_samples\_split:25
+	\item random\_state:0xdeadbeef
+	\item verbose:1
+	\item n\_jobs:2
+\end{itemize}   
+The final score this recieved was:
+
 
 \end{document}
