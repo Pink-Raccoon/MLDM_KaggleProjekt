@@ -5,20 +5,24 @@ The authors have tried the following models:
 \begin{itemize}
 	\item SVM
 	\item RandomForest
-	\item CNN
+	\item NN
 \end{itemize}
-From all the models the Random Forest seemed to get the best score. With the following hypertunings:\\
+From all the models the Random Forest seemed to get the best score. With the following hypertunings due to hardware restrictions(e.g crashing due to overuse of RAM capacity) and for better log loss scores :\\
 \begin{itemize}
-	\item n\_estimators:540
+	\item n\_estimators:525
 	\item max\_depth:15
 	\item max\_features:sqrt
-	\item min\_samples\_leaf:5
-	\item min\_samples\_split:25
+	\item min\_samples\_leaf:15
+	\item min\_samples\_split:30
 	\item random\_state:0xdeadbeef
 	\item verbose:1
-	\item n\_jobs:2
+	\item n\_jobs:4
 \end{itemize}   
 The final score this recieved was:
-
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.3\textwidth]{Resources/FinalScore.png}
+\caption{\label{fig:FinalScore}FinalScore.}
+\end{figure}
 
 \end{document}
